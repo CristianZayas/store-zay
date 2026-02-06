@@ -1,36 +1,142 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Store Zay – E-commerce Demo
 
-## Getting Started
+Aplicación e-commerce desarrollada con **Next.js 16 (App Router)** enfocada en rendimiento, escalabilidad y buenas prácticas de arquitectura frontend/fullstack.
 
-First, run the development server:
+El proyecto implementa renderizado en servidor, tipado seguro con TypeScript y una interfaz moderna basada en un enfoque **mobile-first**, garantizando una experiencia consistente en distintos dispositivos.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+---
+
+## 🚀 Tecnologías utilizadas
+
+- **Next.js 16** – Server Components y App Router  
+- **TypeScript** – Tipado estático para mayor seguridad  
+- **Zod** – Validación y modelado de datos  
+- **Tailwind CSS** – Estilos rápidos y mantenibles  
+- **Radix UI** – Componentes accesibles y reutilizables  
+
+---
+
+## 🧠 Decisiones técnicas
+
+- Se utilizaron **Server Components** para el fetch inicial de productos, reduciendo el JavaScript enviado al cliente y mejorando el rendimiento.
+- Implementación de una **capa de servicios** para desacoplar la lógica de acceso a datos de la interfaz.
+- Uso de **Zod** para garantizar consistencia y seguridad en los datos provenientes de la API.
+- Arquitectura modular orientada a la escalabilidad y mantenibilidad.
+- Persistencia del carrito mediante **localStorage**, conservando el estado entre sesiones.
+- Implementación de **Skeleton Loaders** para mejorar la percepción de carga.
+- Uso de componentes de **Radix UI** para garantizar accesibilidad y reutilización de la interfaz.
+
+---
+
+## ✨ Funcionalidades principales
+
+- Listado de productos en formato de cards  
+- Filtro por categoría  
+- Búsqueda en tiempo real  
+- Página de detalle dinámica  
+- Carrito de compras persistente  
+- Control de cantidades  
+- Diseño totalmente responsive  
+
+---
+
+## 🧱 Estructura del proyecto
+
+El proyecto sigue una arquitectura modular que facilita la separación de responsabilidades y permite una evolución sencilla del código.
+
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+src/
+├── app          → Rutas y páginas utilizando App Router
+├── components   → Componentes reutilizables de la interfaz
+├── config       → Configuraciones globales de la aplicación
+├── constants    → Constantes compartidas
+├── hooks        → Custom hooks para lógica reutilizable
+├── interfaces   → Definición de tipos de TypeScript
+├── lib          → Funciones utilitarias y helpers
+├── schemas      → Esquemas de validación con Zod
+├── services     → Capa de comunicación con APIs
+└── styles       → Estilos globales
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+````
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### 📡 Carpeta `services`
 
-## Learn More
+La capa de servicios se divide en:
 
-To learn more about Next.js, take a look at the following resources:
+- **api** → Configuración base para la comunicación con la API y manejo centralizado de errores.
+- **services** → Funciones encargadas de obtener y transformar los datos utilizados por la aplicación.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Esta separación permite mantener una arquitectura más limpia y preparada para escalar.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## 📱 Preview
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+_(Opcional pero recomendado)_  
+Agregar capturas de:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Home  
+- Detalle del producto  
+- Vista mobile  
+- Carrito  
+
+---
+
+## 📦 Instalación y ejecución
+
+```bash
+npm install
+npm run dev
+````
+
+La aplicación estará disponible en:
+
+```
+http://localhost:3000
+```
+
+---
+
+## 🔮 Mejoras futuras
+
+* Integración con pasarela de pagos
+* Autenticación de usuarios
+* Sincronización del carrito con backend
+* Tests unitarios y de integración
+* Optimización avanzada de imágenes
+
+---
+
+## 👨‍💻 Autor
+
+**Angel Lizama**
+
+```
+
+### ✅ Corre:
+
+```
+
+npm run build
+
+```
+
+OBLIGATORIO.
+
+---
+
+### ✅ Agrega 3–4 screenshots  
+(Sube MUCHO la percepción profesional.)
+
+---
+
+### ✅ Revísalo una vez más mañana con mente fresca.
+
+Nada más.
+
+No sobrepulir.
+
+---
+
+
