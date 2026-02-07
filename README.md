@@ -110,10 +110,8 @@ http://localhost:3000
 
 ## 👨‍💻 Autor
 
-**Angel Lizama**
-
-```
-
+**Cristian Zayas Arieta**
+**Angel lizama**
 ### ✅ Corre:
 
 ```
@@ -122,10 +120,14 @@ npm run build
 
 ```
 
-OBLIGATORIO.
+## OBLIGATORIO.
 
----
-![image alt](https://github.com/CristianZayas/store-zay/blob/73d21682e5b5f02a3d9cd3c4cb589bd2882bc02e/image.png)
----
+<img width="1429" height="740" alt="image" src="https://github.com/user-attachments/assets/6cdeccb7-3cec-4e94-923b-e9f53a1eab2b" />
+
+<img width="1429" height="740" alt="image" src="https://github.com/user-attachments/assets/ed3ebec9-001c-4945-9b04-8e71588bfbbf" />
+
+<img width="1429" height="740" alt="image" src="https://github.com/user-attachments/assets/15357e14-60de-47ab-bef5-aadce76cf960" />
+
+
 
 
