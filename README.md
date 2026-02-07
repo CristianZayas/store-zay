@@ -25,18 +25,25 @@ El proyecto implementa renderizado en servidor, tipado seguro con TypeScript y u
 - Persistencia del carrito mediante **localStorage**, conservando el estado entre sesiones.
 - Implementación de **Skeleton Loaders** para mejorar la percepción de carga.
 - Uso de componentes de **Radix UI** para garantizar accesibilidad y reutilización de la interfaz.
+- Implementación de un flujo de autenticación, permitiendo gestionar el acceso de usuarios y proteger secciones de la aplicación.
+- Desarrollo de un módulo de gestión de usuarios (CRUD) siguiendo principios de separación de responsabilidades para facilitar futuras extensiones del sistema.
+  
 
 ---
 
 ## ✨ Funcionalidades principales
 
-- Listado de productos en formato de cards  
-- Filtro por categoría  
-- Búsqueda en tiempo real  
-- Página de detalle dinámica  
-- Carrito de compras persistente  
-- Control de cantidades  
-- Diseño totalmente responsive  
+- Listado de productos en formato de cards.  
+- Filtro por categoría para facilitar la exploración del catálogo.  
+- Búsqueda en tiempo real por nombre de producto.  
+- Página de detalle dinámica con información completa del producto.  
+- Carrito de compras persistente entre sesiones mediante localStorage.  
+- Control de cantidades dentro del carrito de compras.  
+- Sistema de autenticación para el control de acceso a la aplicación.  
+- Protección de rutas para restringir el acceso a secciones privadas.  
+- Gestión de usuarios mediante operaciones CRUD (crear, editar, eliminar y consultar).  
+- Arquitectura modular orientada a la escalabilidad y mantenibilidad.  
+- Diseño totalmente responsive con enfoque Mobile First.  
 
 ---
 
@@ -69,25 +76,13 @@ La capa de servicios se divide en:
 
 Esta separación permite mantener una arquitectura más limpia y preparada para escalar.
 
----
-
-## 📱 Preview
-
-_(Opcional pero recomendado)_  
-Agregar capturas de:
-
-- Home  
-- Detalle del producto  
-- Vista mobile  
-- Carrito  
-
----
 
 ## 📦 Instalación y ejecución
 
 ```bash
 npm install
 npm run dev
+npm run build
 ````
 
 La aplicación estará disponible en:
@@ -112,13 +107,6 @@ http://localhost:3000
 
 **Cristian Zayas Arieta**
 **Angel lizama**
-### ✅ Corre:
-
-```
-
-npm run build
-
-```
 
 ## OBLIGATORIO.
 
