@@ -125,18 +125,7 @@ npm run build
 OBLIGATORIO.
 
 ---
-
-### ✅ Agrega 3–4 screenshots  
-(Sube MUCHO la percepción profesional.)
-
----
-
-### ✅ Revísalo una vez más mañana con mente fresca.
-
-Nada más.
-
-No sobrepulir.
-
+![image alt](https://github.com/CristianZayas/store-zay/blob/73d21682e5b5f02a3d9cd3c4cb589bd2882bc02e/image.png)
 ---
 
 
