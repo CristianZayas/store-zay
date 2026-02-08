@@ -4,6 +4,13 @@ Aplicación e-commerce desarrollada con **Next.js 16 (App Router)** enfocada en 
 
 El proyecto implementa renderizado en servidor, tipado seguro con TypeScript y una interfaz moderna basada en un enfoque **mobile-first**, garantizando una experiencia consistente en distintos dispositivos.
 
+## 🎯 Objetivo del proyecto
+Construir un catálogo de productos funcional consumiendo una API externa, aplicando buenas prácticas de arquitectura, tipado estático y diseño responsivo.
+
+
+## 🌐 Demo en vivo
+https://spontaneous-unicorn-d953d4.netlify.app/
+
 ---
 
 ## 🚀 Tecnologías utilizadas
@@ -41,6 +48,15 @@ El proyecto implementa renderizado en servidor, tipado seguro con TypeScript y u
 - Diseño totalmente responsive  
 
 ---
+## ⚡ Principios aplicados
+
+- Separación de responsabilidades  
+- Arquitectura escalable  
+- Tipado estático  
+- Accesibilidad  
+- Mobile-first  
+- Optimización de rendimiento  
+
 
 ## 🧱 Estructura del proyecto
 
@@ -99,12 +115,8 @@ http://localhost:3000
 ---
 
 ## 👨‍💻 Autor
----
-**ING Cristian Zayas Arieta**
-
-**IT Director Angel lizama**
-
-## OBLIGATORIO.
+Cristian Zayas Arieta  
+Frontend Developer
 
 <img width="1429" height="740" alt="image" src="https://github.com/user-attachments/assets/6cdeccb7-3cec-4e94-923b-e9f53a1eab2b" />
 
