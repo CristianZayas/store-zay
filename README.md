@@ -1,12 +1,13 @@
 # Store Zay – E-commerce Demo
 
-Aplicación e-commerce desarrollada con **Next.js 16 (App Router)** enfocada en rendimiento, escalabilidad y buenas prácticas de arquitectura frontend/fullstack.
+Aplicación e-commerce desarrollada con **Next.js (App Router)** – Server Components enfocada en rendimiento, escalabilidad y buenas prácticas de arquitectura frontend/fullstack.
 
 El proyecto implementa renderizado en servidor, tipado seguro con TypeScript y una interfaz moderna basada en un enfoque **mobile-first**, garantizando una experiencia consistente en distintos dispositivos.
 
 ## 🎯 Objetivo del proyecto
 Construir un catálogo de productos funcional consumiendo una API externa, aplicando buenas prácticas de arquitectura, tipado estático y diseño responsivo.
 
+<img width="1429" height="740" alt="image" src="https://github.com/user-attachments/assets/6cdeccb7-3cec-4e94-923b-e9f53a1eab2b" />
 
 ## 🌐 Demo en vivo
 https://spontaneous-unicorn-d953d4.netlify.app/
@@ -118,7 +119,6 @@ http://localhost:3000
 Cristian Zayas Arieta  
 Frontend Developer
 
-<img width="1429" height="740" alt="image" src="https://github.com/user-attachments/assets/6cdeccb7-3cec-4e94-923b-e9f53a1eab2b" />
 
 <img width="1429" height="740" alt="image" src="https://github.com/user-attachments/assets/ed3ebec9-001c-4945-9b04-8e71588bfbbf" />
 
